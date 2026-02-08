@@ -1,0 +1,80 @@
+/* div{
+    background-color: skyblue;
+
+} */
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--royal);
+    margin: 30px 0 20px;
+  }
+
+/* Dallas Cowboys color palette */
+:root {
+    --navy: #041E42;
+    --royal: #003594;
+    --silver: #869397;
+    --white: #ffffff;
+  }
+  
+  /* Base reset */
+  * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--silver);
+    color: var(--navy);
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+
+#header {
+    background: linear-gradient(135deg, var(--navy), var(--royal));
+    color: var(--white);
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  #players, #teams {
+    background-color: var(--white);
+    border-left: 6px solid var(--royal);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+
+
+.subheader {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  .images img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
